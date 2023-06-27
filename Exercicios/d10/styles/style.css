@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'android';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+body{
+    background-color:#c5ebd6;
+    text-align: center;
+}
+nav{
+    text-align: left;
+}
+main{
+    margin: auto;
+    width: 800px;
+}
+
