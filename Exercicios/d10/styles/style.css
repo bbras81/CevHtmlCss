@@ -12,8 +12,6 @@
     font-weight: normal;
 }
 
-
-
 :root{
     --cor0: #c5ebd6;
     --cor1: #83e1ad;
@@ -31,8 +29,6 @@
     padding: 0px;
 }
 
-
-
 body{
     background-color: var(--cor0);
     font-family: var(--fontePadrao);
@@ -46,7 +42,6 @@ header{
 
 }
 
-
 header > h1{
     color: white;
     font-family: var(--fonteDestaque);
@@ -54,6 +49,7 @@ header > h1{
     margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.257);
 } 
+
 header > p {
     font-family: var(--fontePadrao);
     font-size: 1.2em;
@@ -78,6 +74,7 @@ nav > a {
     font-weight: bold;
     transition-duration: 0.5s;
 }
+
 nav > a:hover{
 
     background-color: var(--cor3);
@@ -103,15 +100,45 @@ main > article > h1 {
 }
 
 main > article > h2 {
-    color: var(--cor3);
     font-family: var(--fonteAndroid);
+    color: var(--cor4);
+    font-size: 1.3em;
+    background-image: linear-gradient(to right, var(--cor1), transparent );
+    text-indent: 8px;
 }
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;
+    font-size: 1em;
+}
+
 main > article > img{
     width: 100%;
 }
 
+main strong{
+    color: var(--cor4);
+    font-weight: bold;
+    background-color: var(--cor1);
+    padding: 2px 6px;
+}
+
+main a{
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor5);
+    background-color: var(--cor1);
+    padding: 1px 6px;
+}
+main a:hover{
+    text-decoration: underline;
+    color: var(--cor4);
+}
+
 main  article  img.pequeno{
-    width: 50%;
+    max-width: 350px;
     display: block;
     margin: auto;
 }
