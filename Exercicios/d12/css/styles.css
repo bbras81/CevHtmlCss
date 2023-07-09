@@ -42,6 +42,16 @@ header > p > a:hover{
     text-decoration: underline;
 }
 
+body p{
+
+    background-color: var(--cor0);
+    font-family:var(--fonteCorpo);
+    font-size: 3.5vw;
+}
+
 body >div#est1{
-    
+
+}
+body div#est2{
+    background-image: url(/Exercicios/d12/imagens/background001.jpg);
 }
