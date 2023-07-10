@@ -5,17 +5,20 @@
 
 :root{
     --fonteCorpo: 'Sriracha', cursive;
-    --fonteExtra: Verdana, Geneva, Tahoma, sans-serif;
+    --fonteDefult: Verdana, Geneva, Tahoma, sans-serif;
     --fonteTitulo: 'Passion One', cursive;
 }
 *{
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
 }
 
 html, body{
+    font-family: var(--fonteDefult);
     min-height: 100vh;
     background-color: darkgray;
+
 }
 
 header{
@@ -28,6 +31,9 @@ header{
 header > h1{
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--fonteTitulo);
+    font-size: 10vw;
+
     /*Mandar tudo para maiusculo*/
     /* text-trans*/ 
     /*text-transform: uppercase;*/
@@ -52,6 +58,8 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--fonteCorpo);
+    font-size: 3.5vw;
 }
 
 
@@ -65,7 +73,8 @@ section.imagem{
 }
 
 section.imagem > p{
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
     background-color: rgb(0,0,0,0.253);
 }
 
