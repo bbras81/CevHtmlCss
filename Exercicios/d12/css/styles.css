@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
@@ -43,15 +45,6 @@ header > p > a:hover{
 }
 
 body p{
-
-    background-color: var(--cor0);
     font-family:var(--fonteCorpo);
     font-size: 3.5vw;
-}
-
-body >div#est1{
-
-}
-body div#est2{
-    background-image: url(/Exercicios/d12/imagens/background001.jpg);
 }
