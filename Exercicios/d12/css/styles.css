@@ -10,48 +10,39 @@
     margin: 0px;
     padding: 0px;
 }
+
+html body{
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
 header{
-    height: 235px;
-    color: white;
     background-color: black;
+    color: white;
 }
 
 
 header > h1{
-    font-family: var(--fonteTitulo);
-    font-size: 72px;
     text-align: center;
     padding-top: 50px;
+    font-variant: small-caps;
+
 }
 
 header > p{
-    font-family: var(--fonteExtra);
+    padding-bottom: 50px;
     text-align: center;
-    font-size: 16px;
+
 
 }
 
-header > p > a{
+a{
     color: white;
     text-decoration: none;
     font-weight: bolder;
     
 }
 
-header > p > a:hover{
+a:hover{
     text-decoration: underline;
-}
-
-body p{
-
-    background-color: var(--cor0);
-    font-family:var(--fonteCorpo);
-    font-size: 3.5vw;
-}
-
-body >div#est1{
-
-}
-body div#est2{
-    background-image: url(/Exercicios/d12/imagens/background001.jpg);
 }
