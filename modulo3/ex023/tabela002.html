@@ -22,6 +22,11 @@
             border: 1px solid black;
             padding: 10px;
         }
+
+        /*Para o efeito zebrado pode-se usar o 2n ou odd/evan nos paretesis da pseudo-class*/
+        tbody tr:nth-child(odd){
+            background-color: lightgray;
+        }
         thead, tfoot{
             background-color: gray;
         }
@@ -32,7 +37,7 @@
     <h1>Uso de tabelas grandes</h1>
     <!-- 
         ANATOMIA PARA TABELAS GRANDES
-        CAPTION
+        CAPTION 
         TABLE
             THEAD
                 TR TD TH
