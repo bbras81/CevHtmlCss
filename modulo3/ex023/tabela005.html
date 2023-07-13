@@ -4,14 +4,94 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabela de Alunos</title>
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }    
+        table{
+            border-collapse: collapse;
+        }
+        th, tr, td{
+            padding: 10px;
+            border: 1px solid black;
+        }
+        .leftAl{
+            text-align: left;
+        }
+        th{
+            background-color: lightgray;
+        }
+        .fundoWhite{
+            background-color: white;
+        }
+
+    </style>
+
 </head>
 <body>
     <table>
         <thead>
-            
+            <tr>
+                <th rowspan="2">Área</th>
+                <th rowspan="2">Disciplina</th>
+                <th colspan="2">Notas</th>
+                <th rowspan="2">Média</th>
+            </tr>
+            <tr>
+                <th>Nota 1</th>
+                <th>Nota 2</th>
+            </tr>
         </thead>
         <tbody>
-
+            <tr>
+                <th rowspan="4" class="fundoWhite">Exatas</th>
+                <td class="leftAl">Matemática</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td class="leftAl">Física</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td class="leftAl">Química</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td class="leftAl">Biologia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr class="leftAl"> 
+                <th colspan="4">Média de Exatas</th>
+                <th>0.0</th>
+            </tr>
+            <tr>
+                <th rowspan="2" class="fundoWhite">Humanas</th>
+                <td class="leftAl">História</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td class="leftAl">Geografia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr class="leftAl"> 
+                <th colspan="4">Média de Humanas</th>
+                <th>0.0</th>
+            </tr>
+            
         </tbody>
     </table>
 </body>
