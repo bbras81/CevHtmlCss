@@ -13,61 +13,19 @@ grandes telas: acima de 1200px
 */
 
 
-@media screen and (min-width: 768px) and (max-width: 992px){ /*tablet*/
+@media screen and (min-width: 768px){ 
+    menu#menu{
+        display: block;
+    }
+    #burger{
+        display: none;
+    }
     main{
-        width: 60vw;
-        background-color: white;
-        margin: auto;
-        padding: 10px;
-        border-radius: 10px;
-        margin-top: 10px;
-    
+        width: 768px;
+        
+    }
+    menu > ul > li{
+        display: inline-block;
     }
    
-}
-
-@media screen and (min-width: 993px) and (max-width: 1200px){/*desktop*/
-    body{
-        background-image: url(../imagens/back-pc.jpg);
-    }
-    #phone{
-        display: none;
-    }
-    
-    #tablet{
-        display:none;
-    }
-    #print{
-        display: none;
-    }
-    #pc{
-        display: block;
-    }
-    #tv{
-        display: none;
-    }
-}
-
-
-
-@media screen and (min-width: 1200px){ /*Grandes telas*/
-    body{
-        background-image: url(../imagens/back-tv.jpg);
-    }
-    #phone{
-        display: none;
-    }
-    
-    #tablet{
-        display:none;
-    }
-    #print{
-        display: none;
-    }
-    #pc{
-        display: none;
-    }
-    #tv{
-        display: block;
-    }
 }

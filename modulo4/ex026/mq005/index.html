@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Menu</title>
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Meu site</h1>
         <span id="burger" class="material-icons" onclick="menuOn()" >menu</span>
@@ -28,6 +28,10 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur voluptate distinctio officiis molestiae alias. Officia, dicta. Doloremque odit, nisi corporis officia iste, corrupti consequatur praesentium illo nesciunt animi minus voluptatum!</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dicta quasi esse ex qui molestias amet tempora ratione, optio assumenda maxime eveniet saepe? Hic magnam aliquid dolores aperiam, porro reprehenderit.</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, cum ducimus? Itaque veritatis deleniti officia fuga nemo? Aspernatur accusamus doloribus tempora id nisi adipisci assumenda distinctio, quae consectetur, ipsum voluptas!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, cum ducimus? Itaque veritatis deleniti officia fuga nemo? Aspernatur accusamus doloribus tempora id nisi adipisci assumenda distinctio, quae consectetur, ipsum voluptas!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, cum ducimus? Itaque veritatis deleniti officia fuga nemo? Aspernatur accusamus doloribus tempora id nisi adipisci assumenda distinctio, quae consectetur, ipsum voluptas!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, cum ducimus? Itaque veritatis deleniti officia fuga nemo? Aspernatur accusamus doloribus tempora id nisi adipisci assumenda distinctio, quae consectetur, ipsum voluptas!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, cum ducimus? Itaque veritatis deleniti officia fuga nemo? Aspernatur accusamus doloribus tempora id nisi adipisci assumenda distinctio, quae consectetur, ipsum voluptas!</p>
         </article>
     </main>
     <script>
@@ -37,9 +41,15 @@
             }else{
                 menu.style.display = 'block'
             }
-            
-
         }
+        function mudouTamanho(){
+            if(window.innerWidth >= 768){
+                menu.style.display = 'block'
+            }else{
+                menu.style.display = 'none'
+            }
+        }
+       
     </script>
 </body>
 </html>
